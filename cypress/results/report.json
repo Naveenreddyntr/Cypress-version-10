@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-10T13:37:19.816Z",
+    "end": "2022-10-10T13:37:32.407Z",
+    "duration": 12591,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c00a6d74-23a6-467c-8f54-5174455fcb0e",
+      "title": "",
+      "fullFile": "cypress\\e2e\\1-getting-started\\add or remove.cy.js",
+      "file": "cypress\\e2e\\1-getting-started\\add or remove.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ba6500e2-7367-4296-977b-50c9497bd642",
+          "title": "Exampletest cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "addorremoveelement",
+              "fullTitle": "Exampletest cases addorremoveelement",
+              "timedOut": null,
+              "duration": 9557,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "test.buttonVerification(); //verifying whether the button is visible and enable\ntest.cilckingAddElement(); //performing click action on Add Element button\ntest.deleteButtonVisible(); //verifying whether Delete botton is visible and enabled\ntest.cilckingDeleteElement(); //performing click action on Delete button\ntest.deleteButtonNotVisible(); //verifying whether Delete botton is  not visible",
+              "err": {},
+              "uuid": "390c8e7d-48a1-476e-b6d3-96818441f1b3",
+              "parentUUID": "ba6500e2-7367-4296-977b-50c9497bd642",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "390c8e7d-48a1-476e-b6d3-96818441f1b3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9557,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "reportFilename": "report",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
